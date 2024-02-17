@@ -5,8 +5,8 @@ function kjopBillett() {
     let antall = document.getElementById("antall").value;
     let fornavn = document.getElementById("fornavn").value;
     let etternavn = document.getElementById("etternavn").value;
-    let epost = document.getElementById("epost").value;
     let telefon = document.getElementById("telefon").value;
+    let epost = document.getElementById("epost").value;
 
     let errorMessage = false;
 
@@ -51,8 +51,6 @@ function kjopBillett() {
     } else {
         document.getElementById("feilEpost").innerHTML = "";
     }
-
-
 
     if (!errorMessage) {
         let billettInput = {
