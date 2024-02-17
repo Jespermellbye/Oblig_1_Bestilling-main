@@ -9,6 +9,7 @@ function visBilletter() {
     document.getElementById("billetter").innerHTML = ut;
 }
 
+
 function validerFilm() {
     const film = document.getElementById("film").value;
     const feilFilm = document.getElementById("feilFilm");
